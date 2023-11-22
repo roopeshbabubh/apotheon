@@ -1,12 +1,12 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Card from './components/Card';
+import CardBox from './components/CardBox';
 
 function Home() {
   return (
     <div className='home-page'>
     <Header />
-    <Card />
+    <CardBox />
     <Footer />
     </div>
   );
