@@ -1,10 +1,16 @@
 import React from "react";
-import './style.css';
+import Sidebar from "./Sidebar";
+// import "./style.css";
+
 
 function Header() {
   return (
     <header>
-      <h1>Apotheon</h1>
+      <div>
+        <Sidebar/>
+       
+        <h1>Head</h1>
+      </div>
     </header>
   );
 }
