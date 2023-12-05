@@ -1,0 +1,14 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 2.5rem;
+    background-color: #7752fe;
+  }
+  
+  footer p {
+    color: #ccc;
+    margin: 0;
+    line-height: 2.5rem;
+  }
