@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-// import "./style.css";
+import "./css/header.css";
 
 
 function Header() {
@@ -8,7 +8,6 @@ function Header() {
     <header>
       <div>
         <Sidebar/>
-       
         <h1>Head</h1>
       </div>
     </header>

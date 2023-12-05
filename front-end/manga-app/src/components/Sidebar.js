@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Sidebar.css";
+import "./css/sidebar.css";
 
 const Sidebar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -13,9 +13,9 @@ const Sidebar = () => {
   };
 
   return (
-    <div className={`app ${isSidebarOpen ? "sidebar-open" : ""}`}>
+    <div className= "app">
       <button onClick={toggleSidebar} className="toggle-btn">
-        {isSidebarOpen ? "Close Sidebar" : "Open Sidebar"}
+        {isSidebarOpen ? "" : "Open Sidebar"}
       </button>
 
       <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
